@@ -1,0 +1,6 @@
+framework module Pods_Rich_s_Flights {
+  umbrella header "Pods-Rich's Flights-umbrella.h"
+
+  export *
+  module * { export * }
+}
