@@ -12,6 +12,9 @@ This was a project done for my mobile development class in college. I am a huge 
   <img src="Screenshots/dateSelection.png" alt="Date selection screen" width="375" height="812">
 </p>
 
+## Build issues
+The project was built to run on iOS 12 and has not been updated to cater for the changes made in the most recent operating systems. The search API's used in this application have been slightly changed so any searches made in the application will result in a blank response. There is an updated version of the application available [here](https://github.com/masterstoney/RichFlights-2.0).
+
 ## Architecture
 Application was built using the MVC archirecture.
 
