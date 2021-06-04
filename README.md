@@ -2,7 +2,7 @@
 Flight price tracking project
 
 ## Motivation
-This was a project done for one my mobile development class in college. I am a huge aviation fan and I wanted to take on a project that would be able to show my skills in iOS. The project also served as a way for me to search for flight prices without the fear of the price being jacked up because of trackers used on most flight booking websites.
+This was a project done for my mobile development class in college. I am a huge aviation fan and I wanted to take on a project that would be able to show my skills in iOS. The project also served as a way for me to search for flight prices without the fear of the price being jacked up because of trackers used on most flight booking websites. I named the project after my college professor (anything to get extra credit..lol).
 
 ## Screenshots
 <p align="center">
