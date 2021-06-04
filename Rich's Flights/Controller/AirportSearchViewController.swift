@@ -10,10 +10,10 @@ import UIKit
 
 class AirportSearchViewController: UIViewController, UISearchResultsUpdating, UITableViewDelegate, UITableViewDataSource {
     
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         navigationItem.title = "Select Airport"
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(dismissVC))
@@ -23,7 +23,7 @@ class AirportSearchViewController: UIViewController, UISearchResultsUpdating, UI
         airportsData.fetchData()
         setupViews()
     }
-
+    
     
     //MARK: Properties
     
@@ -68,8 +68,8 @@ class AirportSearchViewController: UIViewController, UISearchResultsUpdating, UI
     
     
     //MARK: Methods
-
-
+    
+    
     private func setupViews() {
         
         view.addSubview(searchInfoTextView)
@@ -125,26 +125,29 @@ class AirportSearchViewController: UIViewController, UISearchResultsUpdating, UI
         searchInfoTextView.isHidden = true
         airportsTableView.isHidden = false
         
+        guard let searchText = searchController.searchBar.text, !searchText.isEmpty else {
+            searchResults = []
+            return
+        }
         
-        
-        if let searchText = searchController.searchBar.text, !searchText.isEmpty {
-            searchResults = airportsData.data.filter({ (airport) -> Bool in
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.searchResults = self.airportsData.data.filter({ (airport) -> Bool in
                 airport.airportCode.lowercased().contains(searchText.lowercased())
             })
-            searchResults += airportsData.data.filter({ (airport) -> Bool in
+            self.searchResults += self.airportsData.data.filter({ (airport) -> Bool in
                 airport.airportName.lowercased().contains(searchText.lowercased())
             })
-            searchResults += airportsData.data.filter({ (airport) -> Bool in
+            self.searchResults += self.airportsData.data.filter({ (airport) -> Bool in
                 airport.cityName.lowercased().contains(searchText.lowercased())
             })
-            searchResults += airportsData.data.filter({ (airport) -> Bool in
+            self.searchResults += self.airportsData.data.filter({ (airport) -> Bool in
                 airport.cityCode.lowercased().contains(searchText.lowercased())
             })
-            searchResults.removeDuplicates()
-        } else {
-            searchResults = []
+            self.searchResults.removeDuplicates()
+            DispatchQueue.main.async {
+                self.airportsTableView.reloadData()
+            }
         }
-        airportsTableView.reloadData()
     }
     
     

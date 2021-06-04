@@ -34,6 +34,9 @@ class ResultsViewController: UIViewController {
     var displayTitle: String!
     
     var userTrip: Trip!
+    
+  //  var flightManager = SkypickerSearchManager()
+    var flightManager = GoibiboSearchManager()
 //
 //    private var loadingView: LOTAnimationView = {
 //        let animationView = LOTAnimationView()
@@ -47,8 +50,10 @@ class ResultsViewController: UIViewController {
         let textField = UITextView()
         textField.translatesAutoresizingMaskIntoConstraints = false
         textField.attributedText = NSAttributedString(string: "Please be patient as we look for the best flights for you", attributes: [NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1), NSAttributedString.Key.font: UIFont.systemFont(ofSize: 20)])
+        textField.textAlignment = .center
         textField.isSelectable = false
         textField.isEditable = false
+        textField.isScrollEnabled = false
         return textField
     }()
     
@@ -68,10 +73,31 @@ class ResultsViewController: UIViewController {
 //        loadingView.heightAnchor.constraint(equalTo: loadingView.widthAnchor).isActive = true
         
         
-//        infoText.topAnchor.constraint(equalTo: loadingView.bottomAnchor, constant: 10).isActive = true
-//        infoText.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15).isActive = true
-//        infoText.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15).isActive = true
-//        
+   //     infoText.topAnchor.constraint(equalTo: loadingView.bottomAnchor, constant: 10).isActive = true
+        infoText.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        infoText.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15).isActive = true
+        infoText.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -15).isActive = true
+        
+        
+        
+        
+        flightManager.search(trip: userTrip) { (data, error) in
+            
+            if error != nil {
+                print(error?.localizedDescription)
+            }
+            
+            
+            DispatchQueue.main.async {
+                let resultsController = TestResultsViewController()
+                print(data.onwardflights)
+//                if let data = data.onwardflights {
+//                    resultsController.flightsData = data
+//                }
+                self.navigationController?.pushViewController(resultsController, animated: true)
+            }
+ 
+        }
         
         
     }

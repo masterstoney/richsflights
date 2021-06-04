@@ -6,8 +6,7 @@ target 'Rich\'s Flights' do
   use_frameworks!
 
   # Pods for Rich's Flights
-
-   pod 'FoldingCell' 
+ 
 
 
 end

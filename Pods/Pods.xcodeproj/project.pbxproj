@@ -7,77 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		070426864A637E5CA74E8DF0ECAA53F1 /* Pods-Rich's Flights-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E61914307A71B5F5A68A9B5394FA254 /* Pods-Rich's Flights-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17478EC53C9BF743B3E5CD731004F560 /* FoldingCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F14AB9E01B4DA34EF613B8DCB6E66FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		4D28C524D046AB74AE124CC84C00CBC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		89CA430B792013B78EA539FE48F8F43A /* FoldingCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */; };
-		C14482FF181F87E17E61B101BA92B071 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */; };
-		EA8EC4A907F0DA16124E5E23B2CDF933 /* Pods-Rich's Flights-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3870BAC8A9F8C217A6504954715CF291 /* Pods-Rich's Flights-dummy.m */; };
+		59B30790834C8FB5529D70F27B01856A /* Pods-Rich's Flights-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3870BAC8A9F8C217A6504954715CF291 /* Pods-Rich's Flights-dummy.m */; };
+		D1636BA589BA63AEB34E1626CFBD2137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F1A94E0FA3170CD427CECE9BB5E72E76 /* Pods-Rich's Flights-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E61914307A71B5F5A68A9B5394FA254 /* Pods-Rich's Flights-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F5A1E84DCD730C76F6652B88E62709DE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BEE757995B42CEB4659F9AB4467196D;
-			remoteInfo = FoldingCell;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C3831CA27FDAC133AAD6354A7EB5243 /* Pods-Rich's Flights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rich's Flights.release.xcconfig"; sourceTree = "<group>"; };
 		28CCDB1C5128D710D4167CF3BABFDDB4 /* Pods-Rich's Flights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rich's Flights.debug.xcconfig"; sourceTree = "<group>"; };
-		2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoldingCell.swift; path = FoldingCell/FoldingCell/FoldingCell.swift; sourceTree = "<group>"; };
 		3870BAC8A9F8C217A6504954715CF291 /* Pods-Rich's Flights-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rich's Flights-dummy.m"; sourceTree = "<group>"; };
 		4E2E6938A53C19D580F51E6F6494602A /* Pods-Rich's Flights-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rich's Flights-frameworks.sh"; sourceTree = "<group>"; };
 		4E61914307A71B5F5A68A9B5394FA254 /* Pods-Rich's Flights-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rich's Flights-umbrella.h"; sourceTree = "<group>"; };
-		4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-umbrella.h"; sourceTree = "<group>"; };
-		5254B03ED0B8D5F4FDB782DC8EC11C18 /* Pods_Rich_s_Flights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rich_s_Flights.framework; path = "Pods-Rich's Flights.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BCB9F5D4504280CF157476434E28EE2 /* FoldingCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoldingCell.modulemap; sourceTree = "<group>"; };
-		6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingCell-dummy.m"; sourceTree = "<group>"; };
 		82A799D6ED202DB62E907EC0E72F1CB5 /* Pods-Rich's Flights-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rich's Flights-resources.sh"; sourceTree = "<group>"; };
 		8D7AD304EA6469E129F99B2C6090C512 /* Pods-Rich's Flights-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rich's Flights-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97D40C5C5E2053CC77645D37A77BE4C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A624F1939BB4AB520E251E1550A70B4F /* Pods-Rich's Flights-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rich's Flights-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B6EDCC398A6DEFAB749A7E260470B31B /* FoldingCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingCell-prefix.pch"; sourceTree = "<group>"; };
-		C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingCell.xcconfig; sourceTree = "<group>"; };
-		D43773EF54051BAF9CF701755AA82281 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB66651C791B8F551814BDC63F5212FE /* Pods-Rich's Flights.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rich's Flights.modulemap"; sourceTree = "<group>"; };
-		F8B44A82961ADD700B0BA7AB419DF7F4 /* FoldingCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingCell.framework; path = FoldingCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDAB4D8B937C1EF553341DA1F275263 /* Pods_Rich_s_Flights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rich_s_Flights.framework; path = "Pods-Rich's Flights.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		50A2B21E388A5A065ABDE8D0DC3E0466 /* Frameworks */ = {
+		31D7244CAEFF3EA0B90BE15B4364FE4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F14AB9E01B4DA34EF613B8DCB6E66FE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8ED8FCEBD019C56D12D58A2BAED1BB50 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D28C524D046AB74AE124CC84C00CBC7 /* Foundation.framework in Frameworks */,
+				D1636BA589BA63AEB34E1626CFBD2137 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05C1AF8819FC36275028CDB9DEF0DA63 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				319350BD978C0A5286CF2F8E706D28A8 /* FoldingCell */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		1A435EBD5ADD5AF04496659DDFDF074C /* Pods-Rich's Flights */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,16 +58,6 @@
 			path = "Target Support Files/Pods-Rich's Flights";
 			sourceTree = "<group>";
 		};
-		319350BD978C0A5286CF2F8E706D28A8 /* FoldingCell */ = {
-			isa = PBXGroup;
-			children = (
-				2AE0558E5411C91852109AB7CB20064F /* FoldingCell.swift */,
-				C871AB3E1D87E821EA070ABF26663055 /* Support Files */,
-			);
-			name = FoldingCell;
-			path = FoldingCell;
-			sourceTree = "<group>";
-		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,13 +66,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		602DD6E8A0B5B83ECE543FBCD664E26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDAB4D8B937C1EF553341DA1F275263 /* Pods_Rich_s_Flights.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				05C1AF8819FC36275028CDB9DEF0DA63 /* Pods */,
-				BE3E8CA1205D82D8B7B99CE68E0A89C7 /* Products */,
+				602DD6E8A0B5B83ECE543FBCD664E26F /* Products */,
 				84451A18BA4EB0AE85F1504443E784AD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -141,86 +100,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE3E8CA1205D82D8B7B99CE68E0A89C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F8B44A82961ADD700B0BA7AB419DF7F4 /* FoldingCell.framework */,
-				5254B03ED0B8D5F4FDB782DC8EC11C18 /* Pods_Rich_s_Flights.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C871AB3E1D87E821EA070ABF26663055 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6BCB9F5D4504280CF157476434E28EE2 /* FoldingCell.modulemap */,
-				C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */,
-				6BE24D560342A08D245C016A488475CD /* FoldingCell-dummy.m */,
-				B6EDCC398A6DEFAB749A7E260470B31B /* FoldingCell-prefix.pch */,
-				4EB114D8FE81E63A8C996E138822ECE7 /* FoldingCell-umbrella.h */,
-				D43773EF54051BAF9CF701755AA82281 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FoldingCell";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5AB62553D914D0C4EB5795756D1A4487 /* Headers */ = {
+		1FAF0431FC8E56617921AD9EA714CDCF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070426864A637E5CA74E8DF0ECAA53F1 /* Pods-Rich's Flights-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC7F43260DEF211C2FA6F72EB3015FF7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17478EC53C9BF743B3E5CD731004F560 /* FoldingCell-umbrella.h in Headers */,
+				F1A94E0FA3170CD427CECE9BB5E72E76 /* Pods-Rich's Flights-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */ = {
+		BED171835303D42969B7C59A2D300E3B /* Pods-Rich's Flights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A9253E546D2BD8570E5C1EEF5B9611A /* Build configuration list for PBXNativeTarget "FoldingCell" */;
+			buildConfigurationList = F017E1DC626D9FEDF747DF7BE8A59B6A /* Build configuration list for PBXNativeTarget "Pods-Rich's Flights" */;
 			buildPhases = (
-				FC7F43260DEF211C2FA6F72EB3015FF7 /* Headers */,
-				153C98A6AC1746E736BFB270DB555CD8 /* Sources */,
-				8ED8FCEBD019C56D12D58A2BAED1BB50 /* Frameworks */,
-				DC9805D8FC48943CD6E575AA835B717F /* Resources */,
+				1FAF0431FC8E56617921AD9EA714CDCF /* Headers */,
+				42F2660C092EBA4816B0D2ED207A5064 /* Sources */,
+				31D7244CAEFF3EA0B90BE15B4364FE4D /* Frameworks */,
+				951D42F4977E616FEA1ABBA945D95519 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = FoldingCell;
-			productName = FoldingCell;
-			productReference = F8B44A82961ADD700B0BA7AB419DF7F4 /* FoldingCell.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C6BC2BEAEA1E700808FAE3E7B74A2B89 /* Pods-Rich's Flights */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D1C5D10083A2084CD2E0C224D2BDC66 /* Build configuration list for PBXNativeTarget "Pods-Rich's Flights" */;
-			buildPhases = (
-				5AB62553D914D0C4EB5795756D1A4487 /* Headers */,
-				B1534B0291EA30FAE74882F3A140A903 /* Sources */,
-				50A2B21E388A5A065ABDE8D0DC3E0466 /* Frameworks */,
-				02832F78D570A057645E60B39A650607 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				57C4D46F7E5104F396FE3805F33C04A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Rich's Flights";
 			productName = "Pods-Rich's Flights";
-			productReference = 5254B03ED0B8D5F4FDB782DC8EC11C18 /* Pods_Rich_s_Flights.framework */;
+			productReference = FBDAB4D8B937C1EF553341DA1F275263 /* Pods_Rich_s_Flights.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -240,25 +149,17 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE3E8CA1205D82D8B7B99CE68E0A89C7 /* Products */;
+			productRefGroup = 602DD6E8A0B5B83ECE543FBCD664E26F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */,
-				C6BC2BEAEA1E700808FAE3E7B74A2B89 /* Pods-Rich's Flights */,
+				BED171835303D42969B7C59A2D300E3B /* Pods-Rich's Flights */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02832F78D570A057645E60B39A650607 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DC9805D8FC48943CD6E575AA835B717F /* Resources */ = {
+		951D42F4977E616FEA1ABBA945D95519 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,73 +169,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		153C98A6AC1746E736BFB270DB555CD8 /* Sources */ = {
+		42F2660C092EBA4816B0D2ED207A5064 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89CA430B792013B78EA539FE48F8F43A /* FoldingCell-dummy.m in Sources */,
-				C14482FF181F87E17E61B101BA92B071 /* FoldingCell.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B1534B0291EA30FAE74882F3A140A903 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA8EC4A907F0DA16124E5E23B2CDF933 /* Pods-Rich's Flights-dummy.m in Sources */,
+				59B30790834C8FB5529D70F27B01856A /* Pods-Rich's Flights-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		57C4D46F7E5104F396FE3805F33C04A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FoldingCell;
-			target = 5BEE757995B42CEB4659F9AB4467196D /* FoldingCell */;
-			targetProxy = F5A1E84DCD730C76F6652B88E62709DE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		7DE8A2EA7BF08288901FA16530B595E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28CCDB1C5128D710D4167CF3BABFDDB4 /* Pods-Rich's Flights.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Rich's Flights/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Rich's Flights/Pods-Rich's Flights.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,116 +246,6 @@
 			};
 			name = Debug;
 		};
-		9E2A9650EA3B767751516F5AA9A25286 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
-				PRODUCT_MODULE_NAME = FoldingCell;
-				PRODUCT_NAME = FoldingCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A4D069B8EB205B412C5CF04F782380FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C3831CA27FDAC133AAD6354A7EB5243 /* Pods-Rich's Flights.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Rich's Flights/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Rich's Flights/Pods-Rich's Flights.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6A48299E1FFFEE7D07F128A8A2DBBCE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7133405D519C9AD3FF6ED2B0083F0BC /* FoldingCell.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FoldingCell/FoldingCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FoldingCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/FoldingCell/FoldingCell.modulemap";
-				PRODUCT_MODULE_NAME = FoldingCell;
-				PRODUCT_NAME = FoldingCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,6 +308,83 @@
 			};
 			name = Release;
 		};
+		CA57F4B39E4C7936B78B4999A1230B7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3831CA27FDAC133AAD6354A7EB5243 /* Pods-Rich's Flights.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rich's Flights/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rich's Flights/Pods-Rich's Flights.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F56B2231E66ECBC44AEFC87CCCEFBB38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CCDB1C5128D710D4167CF3BABFDDB4 /* Pods-Rich's Flights.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rich's Flights/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rich's Flights/Pods-Rich's Flights.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -585,20 +397,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A9253E546D2BD8570E5C1EEF5B9611A /* Build configuration list for PBXNativeTarget "FoldingCell" */ = {
+		F017E1DC626D9FEDF747DF7BE8A59B6A /* Build configuration list for PBXNativeTarget "Pods-Rich's Flights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A48299E1FFFEE7D07F128A8A2DBBCE /* Debug */,
-				9E2A9650EA3B767751516F5AA9A25286 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D1C5D10083A2084CD2E0C224D2BDC66 /* Build configuration list for PBXNativeTarget "Pods-Rich's Flights" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DE8A2EA7BF08288901FA16530B595E3 /* Debug */,
-				A4D069B8EB205B412C5CF04F782380FB /* Release */,
+				F56B2231E66ECBC44AEFC87CCCEFBB38 /* Debug */,
+				CA57F4B39E4C7936B78B4999A1230B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

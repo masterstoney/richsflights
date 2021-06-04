@@ -110,6 +110,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        tableView.deselectRow(at: indexPath, animated: false)
         if indexPath.row == 3 {
             let presentedController = PassengerNumberViewController()
             presentedController.modalPresentationStyle = .overCurrentContext

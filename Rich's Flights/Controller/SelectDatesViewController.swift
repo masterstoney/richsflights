@@ -127,7 +127,7 @@ class SelectDatesViewController: UIViewController {
     @objc func departureDateChanged(datePicker: UIDatePicker) {
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MM/dd/yyyy"
+        dateFormatter.dateFormat = "dd/MM/yyyy"
         departureDateTextField.text = dateFormatter.string(from: datePicker.date)
         
         
@@ -136,7 +136,7 @@ class SelectDatesViewController: UIViewController {
     @objc func returnDateChanged(datePicker: UIDatePicker) {
         
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MM/dd/yyyy"
+        dateFormatter.dateFormat = "dd/MM/yyyy"
         returnTextField.text = dateFormatter.string(from: datePicker.date)
         
     }
